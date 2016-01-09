@@ -30,18 +30,18 @@ borderBottom = 6000
 // [Spawn]
 // Each interval is 1 tick (50 ms)
 spawnInterval = 20
-foodSpawnAmount = 10
-foodStartAmount = 100
-foodMaxAmount = 500
-foodMass = 1
-foodMassGrow = 1
-foodMassGrowPossiblity = 50
-foodMassLimit = 5
-foodMassTimeout = 120
-virusMinAmount = 10
-virusMaxAmount = 50
-virusStartMass = 100
-virusFeedAmount = 7
+foodSpawnAmount = 1090290
+foodStartAmount = 1901910
+foodMaxAmount = 100000000000000000000000000
+foodMass = 32
+foodMassGrow = 100
+foodMassGrowPossiblity = 100
+foodMassLimit = 100000000
+foodMassTimeout = 0
+virusMinAmount = 1
+virusMaxAmount = 10
+virusStartMass = 1
+virusFeedAmount = 1
 
 // [Ejected Mass]
 // ejectMass: Mass of ejected cells
@@ -49,28 +49,28 @@ virusFeedAmount = 7
 // ejectMassLoss: Mass lost when ejecting cells
 // ejectSpeed: Base speed of ejected cells
 // ejectSpawnPlayer: Chance for a player to spawn from ejected mass
-ejectMass = 12
-ejectMassCooldown = 200
-ejectMassLoss = 16
-ejectSpeed = 160
-ejectSpawnPlayer = 50
+ejectMass = 500
+ejectMassCooldown = 0
+ejectMassLoss = 0
+ejectSpeed = 200
+ejectSpawnPlayer = 0
 
 // [Player]
 // playerRecombineTime: Base amount of ticks before a cell is allowed to recombine (1 tick = 1000 milliseconds)
 // playerMassDecayRate: Amount of mass lost per tick (Multiplier) (1 tick = 1000 milliseconds)
 // playerMinMassDecay: Minimum mass for decay to occur
 // playerDisconnectTime: The amount of seconds it takes for a player cell to be removed after disconnection (If set to -1, cells are never removed)
-playerStartMass = 10
-playerMaxMass = 22500
-playerMinMassEject = 32
-playerMinMassSplit = 36
-playerMaxCells = 16
-playerRecombineTime = 30
-playerMassDecayRate = .002
-playerMinMassDecay = 9
+playerStartMass = 1000
+playerMaxMass = 10020000002020202020
+playerMinMassEject = 0
+playerMinMassSplit = 0
+playerMaxCells = 1000000000
+playerRecombineTime = 1
+playerMassDecayRate = .000
+playerMinMassDecay = 0
 playerMaxNickLength = 15
-playerSpeed = 30
-playerDisconnectTime = 60
+playerSpeed = 60
+playerDisconnectTime = -1
 
 // [Gamemode]
 // Custom gamemode settings
